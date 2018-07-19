@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">Gossip</string>
+    <string name="txt_Version">Version 1.0</string>
+    <string name="txt_Rafie">Abu Muid Md. Raafee 160201017</string>
+    <string name="txt_Maruf">Md. Maruf Al Hossain Prince 160201035</string>
+    <string name="txt_Sabrina">Sabrina Jahan 160201041</string>
+    <string name="txt_Content_Description">App Logo</string>
+    <string name="txt_Personal_Info">Personal Information</string>
+    <string name="txt_Name">Name</string>
+    <string name="txt_Email">E-mail</string>
+    <string name="txt_Phone">Phone</string>
+    <string name="txt_DOB">Date of Birth</string>
+    <string name="txt_Acc_Info">Account Information</string>
+    <string name="txt_Username">Username</string>
+    <string name="txt_Password">Password</string>
+    <string name="txt_Confirm_Password">Confirm Password</string>
+    <string name="txt_create_account">Create Account</string>
+    <string name="error_invalid_password">Password too short or does not match</string>
+    <string name="error_field_required">This field is required</string>
+    <string name="error_invalid_email">This email address is invalid</string>
+</resources>

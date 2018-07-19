@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.raafe.gossip.LogInActivity"
+    android:background="@drawable/back">
+
+    <ListView
+        android:id="@+id/ChatListView"
+        android:layout_width="395dp"
+        android:layout_height="531dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/editText22"
+        android:layout_width="match_parent"
+        android:layout_height="37dp"
+        android:layout_marginBottom="8dp"
+        android:layout_marginEnd="100dp"
+        android:layout_marginStart="8dp"
+        android:ems="10"
+        android:background="@drawable/style_edit_text"
+        android:paddingLeft="12dp"
+        android:hint="Type Msg"
+        android:textCursorDrawable="@drawable/style_cursor_color"
+        android:textColor="#ababab"
+        android:textColorHint="#ababab"
+        android:textSize="15sp"
+        android:fontFamily="monospace"
+        android:inputType="textPersonName"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/button45"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/button45"
+        android:layout_width="wrap_content"
+        android:layout_height="37dp"
+        android:layout_marginBottom="8dp"
+        android:layout_marginEnd="8dp"
+        android:background="@drawable/style_button_normal"
+        android:onClick="sendMsg"
+        android:text="Send"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        tools:clickable="true" />
+</android.support.constraint.ConstraintLayout>

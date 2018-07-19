@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.raafe.gossip.UserListActivity"
+    android:background="@drawable/back">
+
+    <include
+        android:id="@+id/ID_toolbar"
+        layout="@layout/toolbar_homescreen"></include>
+
+    <ListView
+        android:id="@+id/ID_userList"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/ID_toolbar" />
+
+
+</android.support.constraint.ConstraintLayout>
